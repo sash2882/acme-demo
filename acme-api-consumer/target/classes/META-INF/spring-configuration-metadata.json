@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "acme-api-consumer",
+      "type": "com.acme.AcmeApiConsumerProperties",
+      "sourceType": "com.acme.AcmeApiConsumerProperties"
+    },
+    {
+      "name": "acme-api-consumer.login",
+      "type": "com.acme.AcmeApiConsumerProperties$Login",
+      "sourceType": "com.acme.AcmeApiConsumerProperties",
+      "sourceMethod": "getLogin()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "acme-api-consumer.base-url",
+      "type": "java.lang.String",
+      "sourceType": "com.acme.AcmeApiConsumerProperties"
+    },
+    {
+      "name": "acme-api-consumer.login-url",
+      "type": "java.lang.String",
+      "sourceType": "com.acme.AcmeApiConsumerProperties"
+    },
+    {
+      "name": "acme-api-consumer.login.client-id",
+      "type": "java.lang.String",
+      "sourceType": "com.acme.AcmeApiConsumerProperties$Login"
+    },
+    {
+      "name": "acme-api-consumer.login.password",
+      "type": "java.lang.String",
+      "sourceType": "com.acme.AcmeApiConsumerProperties$Login"
+    },
+    {
+      "name": "acme-api-consumer.login.username",
+      "type": "java.lang.String",
+      "sourceType": "com.acme.AcmeApiConsumerProperties$Login"
+    },
+    {
+      "name": "acme-api-consumer.parcel-shop-url",
+      "type": "java.lang.String",
+      "sourceType": "com.acme.AcmeApiConsumerProperties"
+    }
+  ],
+  "hints": []
+}
